@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="message-block" id="message-block">
+            <div id="messages">
+
+            </div>
+        </div>
+
+        <input class="input form-input" placeholder="Message" id="message" type="text" name="message" autocomplete="off" />
+        <button id="send" class="btn btn-lg btn-hover form-btn" type="submit">Send</button>
+
+    </div>
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+
+</html>

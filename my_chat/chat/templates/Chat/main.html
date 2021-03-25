@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Connect</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+</head>
+
+<body>
+    <div style="display: table; text-align: center; margin-left: auto; margin-right: auto;">
+        <input id="username" name="username" type="text" class="input form-input" placeholder="Your name" />
+        <input id="chat" name="chat" type="text" class="input form-input" placeholder="Chat ID" />
+        <button id="connect" class="btn btn-lg btn-hover form-btn">Connect</button>
+    </div>
+
+    <script>
+        connect.onclick = function () {
+            let username = document.getElementById('username').value;
+            let chat = document.getElementById('chat').value;
+            if (chat != "" && username != "") {
+                location.replace(encodeURI(`/chat?chat=${chat}&username=${username}`));
+            }
+        };
+    </script>
+</body>
+
+</html>
