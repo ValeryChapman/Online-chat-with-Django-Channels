@@ -1,11 +1,18 @@
-# Online-chat-with-Django-Channels
+# Online chat with Django Channels
 
-About the project 👾
-
+## What is it?
 Example of a simple online chat with a web interface, written using Djnago Channels. 👌
 
-👉 Follow these steps to run the project:
+## What used?
+* Python 3.7+
+* Django 3
+* Django Channels
+* JavaScript ES9
+* JS Fetch Api
+* CSS 3
+* HTML 5
 
-1) in the console go to the "my_chat" folder
-2) write the command "pip install -r requirements.txt"
-3) then, write the command "python manage.py runserver"
+## How to run?
+In order to run this project you need:
+1) Installation `requarements.txt` file with the `pip install -r requarements.txt` command
+2) Run `my_chat` with the `python manage.py runserver` command
