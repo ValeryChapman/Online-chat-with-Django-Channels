@@ -14,5 +14,5 @@ Example of a simple online chat with a web interface, written using Djnago Chann
 
 ## How to run?
 In order to run this project you need:
-1) Installation `requarements.txt` file with the `pip install -r requarements.txt` command
+1) Installation `requirements.txt` file with the `pip install -r requarements.txt` command
 2) Run `my_chat` with the `python manage.py runserver` command
