@@ -1,7 +1,7 @@
 # Online chat with Django Channels
 
 ## What is it?
-Example of a simple online chat with a web interface, written using Djnago Channels. 👌
+Example of a simple online chat with a web interface, written using Django Channels. 👌
 
 ## What used?
 * Python 3.7+
