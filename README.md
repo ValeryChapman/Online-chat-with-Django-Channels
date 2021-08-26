@@ -3,6 +3,8 @@
 ## What is it?
 Example of a simple online chat with a web interface, written using Django Channels. 👌
 
+![alt text](Screenshots/image.jpg)
+
 ## What used?
 * Python 3.7+
 * Django 3
